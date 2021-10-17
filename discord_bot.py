@@ -109,4 +109,4 @@ async def upcoming(ctx):
 
 refresh_session.start()
 
-client.run('NzcxNzAzNDc3OTkwMzI2Mjgy.X5v-3g.IdYw90UuwmgbPUen2MmCsoReC_U')
+client.run('')
