@@ -1,0 +1,698 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico" type="image/x-icon">
+
+    <!-- PowerSchool App Switcher -->
+    <link class="pds-icon-src" rel="import" href="https://assets.powerschool.com/pds/20.2.0/img/icons/pds-icons.svg" />
+    <script src="https://assets.powerschool.com/pds/20.2.0/js/powerschool-design-system-toolkit-bundled.min.js"></script>
+    <link rel="stylesheet" href="https://assets.powerschool.com/pds/20.2.0/css/pds-lite.css">
+    <link rel="import" href="https://assets.powerschool.com/pds/20.2.0/html/individual-polymer-components/pds-icon.html" />
+    <link rel="import" href="https://assets.powerschool.com/pds/20.2.0/html/individual-polymer-components/shared-widget-styles.html" />
+    <link rel="import" href="https://assets.powerschool.com/pds/20.2.0/html/individual-polymer-components/pds-app-switcher-styles.html" />
+    <link rel="import" href="https://assets.powerschool.com/pds/20.2.0/html/individual-polymer-components/pds-app-switcher.html" />
+    <link rel="stylesheet" type="text/css" href="https://assets.powerschool.com/pds/20.2.0/css/pds-components-shim.css">
+    <!-- End PowerSchool App Switcher -->
+
+    <title>Notifications | Schoology</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/schoology_theme/favicon.ico" type="image/x-icon" />
+<meta name="format-detection" content="telephone=no">
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/bundles/js/common/common-a86b24e0ebe4954a9660.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_extlink_6c314655d021dfa27ca941904fc7811c_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_home_notifications_a524d3531957614febbfb44e2973a053_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_edge_2852c99ab5d44a37d23878446513f032_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_app_055f3ccc58ef3820bb1a2f1a9e6782df_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_common_rating_75601a3f7c406a270b2d4f3749da45e7_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/user_profile_151c9627627fda81d2f61b9b52eea296_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_grade_item_add_form_cfeaa1e9344209e34ff03f8a64bdab45_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_calendar_348ba6465c8876f60ed5870963b02d86_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_alignment_474502c7334392fbe435142af6418331_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/style_46e7be2f5f43b5fe94b7eff611a99312_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_course_materials_edge_09db2bfd6dd944acb58194fb742f3639_6169f0824b932b71.css";</style>
+<style type="text/css" media="all">@import "https://asset-cdn.schoology.com/assets/drupal-css-files/s_comment_edge_fba5d6df848bcb72aa145c39636283ca_6169f0824b932b71.css";</style>
+
+<link type="text/css" rel="stylesheet" media="all" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/school_themes/style.css.php?theme=3067463909&updated=1602733141&6169f0824b932b71" /><link rel="stylesheet" type="text/css" media="print" href="/sites/all/themes/schoology_theme/print.css" />    <!--[if lte IE 7]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/schoology_theme/fix-ie.css" /><![endif]-->
+    <!--[if lt IE 9]>
+    <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+      document.createElement('hgroup');
+      document.createElement('figure');
+      document.createElement('figcaption');
+    </script>
+    <![endif]-->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      </head>
+
+  <body  class="sidebar-left js day-17 s-enable-course-dashboard s-hide-left-nav notifications-page-body">
+    <div id="body">
+          <a href="#main" class="skip visually-hidden">Skip to Content</a>
+        <!-- Layout -->
+
+    <!--[if lte IE 6]>
+    <div class="ie6-message header">
+      <span class="message-icon"></span>
+      <h3>Warning</h3>
+      <p>You are using Internet Explorer version 6.0 or lower.  Due to security issues and lack of support for Web Standards, it is highly recommended that you upgrade to a modern browser.</p>
+      <div class="browsers"><p>Download:</p>
+        <a href="http://www.mozilla.com/firefox"><img src="/sites/all/themes/schoology_theme/images/firefox.gif" alt="Download Firefox" /></a>
+        <a href="http://www.google.com/chrome"><img src="/sites/all/themes/schoology_theme/images/chrome.gif" alt="Download Google Chrome" /></a>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx"><img src="/sites/all/themes/schoology_theme/images/ie.gif" alt="Download Internet Explorer" /></a>
+        <a href="http://www.apple.com/safari/"><img src="/sites/all/themes/schoology_theme/images/safari.gif" alt="Download Safari" /></a>
+      </div>
+    </div>
+    <![endif]-->
+    
+      <div id='header' class='site-navigation' style='background: #F5F5DC' role='banner'></div><div id='site-navigation-breadcrumbs' class='site-navigation'></div>
+      <div id="wrapper" class="site-navigation-resize">
+            <div id="container" class=" clearfix">
+
+                  <div id="sidebar-left" class="sidebar hidden">
+                        <div id="left-nav" role="navigation">
+              <div id="menu-s-home" role="navigation"></div>
+                          </div>
+                                   </div> <!-- /#sidebar-left -->
+        <div id="main-content-wrapper" class="clearfix without-left-nav">
+                                <div id="center-wrapper" class="">
+                    <div id="center-inner" class="clearfix">
+            <div id="center-top">
+                                                      	<h2 class="page-title ">Notifications</h2>                                              	      </div>
+  					                                                                                    <div id="content-wrapper">
+              <div class="notif-page-wrapper"><div id="center"><div id="main"><div id="main-inner"><div class="form-item " id="notif-filter-page-wrapper">
+ <select name="" class="form-select notif-filter not-button" id="notif-filter-page" ><option value="all" selected="selected">&lt;span class=&quot;all-icon notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;All Notifications</option><option value="direct-replies">&lt;span class=&quot;comment-notif notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Direct Replies</option><option value="discussion-responses">&lt;span class=&quot;comment-notif notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Discussion Responses</option><option value="content-created">&lt;span class=&quot;content-created notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Content Created</option><option value="grade-posted">&lt;span class=&quot;grade-post notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Grades Posted</option><option value="dropbox-submission-comment">&lt;span class=&quot;dropbox-submit-icon notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Assignment Submission Comments</option><option value="assessment-submission-comment">&lt;span class=&quot;assessment-submit-icon notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Test/quiz Comments</option><option value="badge-award">&lt;span class=&quot;badge-award-notify-icon notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Badge Awarded</option><option value="library-collection-share">&lt;span class=&quot;collection-share-icon notification-icon notify-icon&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;Shared Resources</option></select>
+</div>
+<div class="item-list"><ul class="s-notifications-mini"><li class="notif-date-header first">Sunday, October 17, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5393466812">Classwork 7 - Wave and superposition</a> <span class="edge-time">Oct 17 at 10:39 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112592030">Grade 11 Physics 2021-2022: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5393466812">Classwork 7 - Wave and superposition</a></span>  <span class="edge-time">Oct 17 at 10:39 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Saturday, October 16, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112186613">Christian Studies G11: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5392960966">Term 2 PROJECT</a></span>  <span class="edge-time">Oct 16 at 12:29 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Thursday, October 14, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5359036969">Coordinate Geometry - Revision Worksheet</a> <span class="edge-time">Oct 14 at 2:29 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5110336297">G11 Bahasa Indonesia 2021-2022: G11 Bahasa Indonesia</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5110336297/materials/gp/5388231005" class="mini" caption_href="" title="">Project Individual G11.doc</a></span>  <span class="edge-time">Oct 14 at 11:36 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112036211">Life Skills 11 2021-2022: Life Skills</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112036211/materials/gp/5388213808" class="mini" caption_href="" title="">Grooming and Attire2.pptx</a></span>  <span class="edge-time">Oct 14 at 11:03 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112036211">Life Skills 11 2021-2022: Life Skills</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5388181573">Attire project term 2</a></span>  <span class="edge-time">Oct 14 at 10:13 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112548371">Physical Education: G11 (SY 2021-2022)</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5387995248">T2 Classwork 1</a></span>  <span class="edge-time">Oct 14 at 8:30 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Wednesday, October 13, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112186613">Christian Studies G11: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5386907633">Ichthus Manna - Week 13 Semester 1</a></span>  <span class="edge-time">Oct 13 at 11:13 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5110336297">G11 Bahasa Indonesia 2021-2022: G11 Bahasa Indonesia</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5110336297/materials/gp/5385591201" class="mini" caption_href="" title="">Tugas 1 Ceramah--.docx</a></span> and <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5110336297/materials/gp/5385524818" class="mini" caption_href="" title="">Teks ceramah.docx</a></span>  <span class="edge-time">Oct 13 at 9:04 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5385450376">Class Test #3 - Shorter Writing and ...</a></span> and <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5385455120">CW#19 - What Makes a Good Speech</a></span>  <span class="edge-time">Oct 13 at 8:24 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Tuesday, October 12, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112220745">Global Perspectives and Research: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5382798622">Project - Instructional Poster</a></span>  <span class="edge-time">Oct 12 at 12:21 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Monday, October 11, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112186613">Christian Studies G11: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5379651879">Is It Hateful To Believe In Hell? Bernie San ...</a></span>, <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5379649871">Hell</a></span> and <span class="other-items-link clickable">5 other items</span>  <span class="edge-time">Oct 11 at 2:24 pm</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5379651879">Is It Hateful To Believe In Hell? Bernie San ...</a></span> <span class="material-created">Posted on 2:24 pm</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5379649871">Hell</a></span> <span class="material-created">Posted on 2:17 pm</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 9:23 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 9:21 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5379143003">The Uncomfortable Subject Jesus Addressed Mo ...</a></span> <span class="material-created">Posted on 6:46 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 6:27 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5379111672">Wk13 Class Summary</a></span> <span class="material-created">Posted on 6:26 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112204906">G11 Homeroom: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5379270203">Manna Video</a></span>, <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5379269637">Manna PPT</a></span> and <span class="other-items-link clickable">1 other item</span>  <span class="edge-time">Oct 11 at 7:56 am</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5379270203">Manna Video</a></span> <span class="material-created">Posted on 7:56 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5379269637">Manna PPT</a></span> <span class="material-created">Posted on 7:56 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112204906/materials/gp/5379256436" class="mini" caption_href="" title="">G11 TIMETABLE (FACE-TO-FACE LEARNING ...</a></span> <span class="material-created">Posted on 7:48 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Thursday, October 7, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignments/5363521211/mydocument">CW#11 - Citation and Referencing Practice</a> <span class="edge-time">Oct 7 at 9:11 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Wednesday, October 6, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112204906">G11 Homeroom: Section 1</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112204906/materials/gp/5370339145" class="mini" caption_href="" title="">G11+T2+Testing+Windows.pdf</a></span>  <span class="edge-time">Oct 6 at 12:45 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5370301682">Promotional Texts and Campaign Literature</a></span>  <span class="edge-time">Oct 6 at 11:44 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5110336297">G11 Bahasa Indonesia 2021-2022: G11 Bahasa Indonesia</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5367653374">Classtest Term 2</a></span>  <span class="edge-time">Oct 6 at 11:36 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112592030">Grade 11 Physics 2021-2022: Section 1</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5370288164" class="mini" caption_href="" title="">2021-10-05 10.06.02 G11a.iw Secondary&#039;s ...</a></span>, <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5370285145" class="mini" caption_href="" title="">ch 3 - m - (b) deformation of solids.pdf</a></span> and <span class="other-items-link clickable">1 other item</span>  <span class="edge-time">Oct 6 at 11:17 am</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5370288164" class="mini" caption_href="" title="">2021-10-05 10.06.02 G11a.iw Secondary&#039;s ...</a></span> <span class="material-created">Posted on 11:17 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5370285145" class="mini" caption_href="" title="">ch 3 - m - (b) deformation of solids.pdf</a></span> <span class="material-created">Posted on 11:10 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5370285144" class="mini" caption_href="" title="">ch 3 - m - (a) phases of matter.pdf</a></span> <span class="material-created">Posted on 11:10 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Tuesday, October 5, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112220745">Global Perspectives and Research: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5367150038">CW#12 - Research Question</a></span>  <span class="edge-time">Oct 5 at 10:03 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5367081311">CW#19 - Reflective Commentary</a></span>, <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5366967427">Project - Identity Project</a></span> and <span class="other-items-link clickable">6 other items</span>  <span class="edge-time">Oct 5 at 9:02 am</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5367081311">CW#19 - Reflective Commentary</a></span> <span class="material-created">Posted on 9:02 am</span></div></li>
+<li><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5366967427">Project - Identity Project</a></span> <span class="material-created">Posted on 7:33 am</span></div></li>
+<li><div class="material-item"><span class="added-item"><span class="event-icon mini inline-icon "><span class="visually-hidden">Event</span></span><a href="/event/5366963996">Class Test #3 - Shorter Writing and ...</a></span> <span class="material-created">Posted on 7:30 am</span></div></li>
+<li><div class="material-item"><span class="added-item"><span class="event-icon mini inline-icon "><span class="visually-hidden">Event</span></span><a href="/event/5366963072">Class Test #4 - Extended Writing</a></span> <span class="material-created">Posted on 7:30 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5366954814">Tone Words (Set #3)</a></span> <span class="material-created">Posted on 7:23 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5366953596">Tone Words (Set #2)</a></span> <span class="material-created">Posted on 7:22 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5366952884">Tone Words (Set #1)</a></span> <span class="material-created">Posted on 7:21 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5363453169">Shorter Writing and Reflective Commentary</a></span> <span class="material-created">Posted on 10:58 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Monday, October 4, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5363591962">Classwork 6 - Deformation of solids</a> <span class="edge-time">Oct 4 at 3:37 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112592030">Grade 11 Physics 2021-2022: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5363591962">Classwork 6 - Deformation of solids</a></span>  <span class="edge-time">Oct 4 at 3:37 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112220745">Global Perspectives and Research: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5363521211">CW#11 - Citation and Referencing Practice</a></span> and <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112220745/materials/link/view/5363259099">Communication: Writing the Essay</a></span>  <span class="edge-time">Oct 4 at 12:18 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112186613">Christian Studies G11: Section 1</a> posted <span class="added-item document"></span>, <span class="added-item document"></span> and <span class="other-items-link clickable">4 other items</span>  <span class="edge-time">Oct 4 at 7:14 am</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 7:14 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 7:13 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112186613/materials/gp/5362985132" class="mini" caption_href="" title="">Wk 12 How can I be saved.docx</a></span> <span class="material-created">Posted on 7:12 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 6:52 am</span></div></li>
+<li><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5362847153">Wk 12 Class Summary/Homework</a></span> <span class="material-created">Posted on 6:10 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 6:09 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112204906">G11 Homeroom: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5362965954">Manna Video</a></span> and <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5362963807">Manna PPT</a></span>  <span class="edge-time">Oct 4 at 7:03 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Friday, October 1, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5110336297">G11 Bahasa Indonesia 2021-2022: G11 Bahasa Indonesia</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5110336297/materials/gp/5359085599" class="mini" caption_href="" title="">TEKS EKSPLANASI 2.docx</a></span>  <span class="edge-time">Oct 1 at 12:59 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112196605">G11 A Level Mathematics 2021-2022: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5359036969">Coordinate Geometry - Revision Worksheet</a></span>  <span class="edge-time">Oct 1 at 10:58 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5359014336">CW#18 - Shorter Writing Practice</a></span>  <span class="edge-time">Oct 1 at 10:19 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Thursday, September 30, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5346637736">Term 2 Project - Equation of a circle</a> <span class="edge-time">Sep 30 at 10:45 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Tuesday, September 28, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112196605">G11 A Level Mathematics 2021-2022: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112196605/materials/link/view/5350472020">Equation of a Circle</a></span>  <span class="edge-time">Sep 28 at 10:11 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5350259661">CW#17 - Planning Shorter Writing</a></span>  <span class="edge-time">Sep 28 at 9:04 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Monday, September 27, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112186613">Christian Studies G11: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5346992929">Ichthus Manna - Week 11 Sem 1</a></span>, <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5346379884">God in Three Persons: A Doctrine We Barely U ...</a></span> and <span class="other-items-link clickable">3 other items</span>  <span class="edge-time">Sep 27 at 6:04 pm</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5346992929">Ichthus Manna - Week 11 Sem 1</a></span> <span class="material-created">Posted on 6:04 pm</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5346379884">God in Three Persons: A Doctrine We Barely U ...</a></span> <span class="material-created">Posted on 8:05 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112186613/materials/link/view/5346371987">Is the Trinity Biblical?</a></span> <span class="material-created">Posted on 8:02 am</span></div></li>
+<li><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 7:59 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item document"></span> <span class="material-created">Posted on 7:08 am</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5346376109">CW#10 - Introduction to the Research Essay</a> and <a href="/assignment/5308582378">CW1</a> <span class="edge-time">Sep 27 at 2:40 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112204906">G11 Homeroom: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5346854188">Manna Video</a></span> and <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5346853730">Manna PPT</a></span>  <span class="edge-time">Sep 27 at 1:00 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112196605">G11 A Level Mathematics 2021-2022: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5346637736">Term 2 Project - Equation of a circle</a></span>  <span class="edge-time">Sep 27 at 9:50 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112220745">Global Perspectives and Research: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5346376109">CW#10 - Introduction to the Research Essay</a></span>  <span class="edge-time">Sep 27 at 8:03 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Thursday, September 16, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5284752775">Quiz Term 1</a> <span class="edge-time">Sep 16 at 12:36 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Tuesday, September 14, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112592030">Grade 11 Physics 2021-2022: Section 1</a> posted <span class="added-item document"><span class="inline-icon default-icon mini "><span class="visually-hidden">File</span></span><a href="/course/5112592030/materials/gp/5312898935" class="mini" caption_href="" title="">cambridge international as and a level ...</a></span>  <span class="edge-time">Sep 14 at 2:50 pm</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5110336297">G11 Bahasa Indonesia 2021-2022: G11 Bahasa Indonesia</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5284752775">Quiz Term 1</a></span>  <span class="edge-time">Sep 14 at 9:05 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Monday, September 13, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112196605">G11 A Level Mathematics 2021-2022: Section 1</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5308582378">CW1</a></span>  <span class="edge-time">Sep 13 at 11:29 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5302291395">CW#16 - Collaborative Essay (Review Commentary)</a> <span class="edge-time">Sep 13 at 9:30 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Monday, September 13, 2021</li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112204906">G11 Homeroom: Section 1</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5307721894">Manna Video</a></span> and <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112204906/materials/link/view/5307720225">Manna PPT</a></span>  <span class="edge-time">Sep 13 at 6:35 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Sunday, September 12, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5243467251">Sampoerna University</a>, <a href="/assignment/5184572044">UCSI Visit</a> and <span class='other-items-link clickable' poptitle='Grades' id='other-items-link-23067483168'>3 other assignments</span> <span class="edge-time">Sep 12 at 12:04 am</span></span></div>
+          <div class='right'><div class='other-items-list' id='other-items-list-23067483168'><div class="item-list"><ul><li class="first">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112036211"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Life Skills 11 2021-2022: Life Skills 11 2021-2022: Life Skills" /></div></a>
+          </div>
+          <a href="/assignment/5243467251"><span class='grade-item'></span>Sampoerna University</a> <span class='grade-added'>Posted on 12:04 am</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112036211"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Life Skills 11 2021-2022: Life Skills 11 2021-2022: Life Skills" /></div></a>
+          </div>
+          <a href="/assignment/5184572044"><span class='grade-item'></span>UCSI Visit</a> <span class='grade-added'>Posted on 11:54 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112036211"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Life Skills 11 2021-2022: Life Skills 11 2021-2022: Life Skills" /></div></a>
+          </div>
+          <a href="/assignment/5274871367"><span class='grade-item'></span>IChoose-Attitude</a> <span class='grade-added'>Posted on 11:14 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112036211"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Life Skills 11 2021-2022: Life Skills 11 2021-2022: Life Skills" /></div></a>
+          </div>
+          <a href="/assignment/5214927372"><span class='grade-item'></span>IChoose 1- Choices</a> <span class='grade-added'>Posted on 11:04 pm</span>
+        </div></li>
+<li class="last">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112036211"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Life Skills 11 2021-2022: Life Skills 11 2021-2022: Life Skills" /></div></a>
+          </div>
+          <a href="/assignment/5145856884"><span class='grade-item'></span>University Comparison: submission 2</a> <span class='grade-added'>Posted on 10:50 pm</span>
+        </div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Friday, September 10, 2021</li>
+<li><div class='s-edge-type-comment-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="comment-notif notify-icon"><span class="visually-hidden">Discussion Response Notification.</span></span><span class='edge-sentence'><a href="/user/102631891" title="View user profile.">MARIO MIKHAEL THEOFILLO</a>, <a href="/user/107924254" title="View user profile.">Nadine Alethea</a> and <span class='other-items-link clickable' id='other-items-link-23039116780' poptitle='Discussion Replies'>2 other people</span> replied to <a href="/course/5112196605/materials/discussion/view/5302321603">Equation of a line - y=mc+c</a> <span class="edge-time">Sep 10 at 11:40 pm</span></span></div>
+          <div class='right'><div class='other-items-list' id='other-items-list-23039116780'><div class="item-list"><ul><li class="first">
+            <div class='user-item'>
+              <div class="picture">
+  <a href="/user/102631891" title="MARIO MIKHAEL THEOFILLO"><div  class=" profile-picture-wrapper"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/user-default.svg" alt="Profile picture for MARIO MIKHAEL THEOFILLO" title=""  class="imagecache imagecache-profile_tiny" /></div></div></a></div>
+<a href="/user/102631891" title="View user profile.">MARIO MIKHAEL THEOFILLO</a> <span class='comment-created'>Posted on Friday, September 10, 2021 at 11:40 pm</span>
+            </div></li>
+<li>
+            <div class='user-item'>
+              <div class="picture">
+  <a href="/user/107924254" title="Nadine Alethea"><div  class=" profile-picture-wrapper"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/user-default.svg" alt="Profile picture for Nadine Alethea" title=""  class="imagecache imagecache-profile_tiny" /></div></div></a></div>
+<a href="/user/107924254" title="View user profile.">Nadine Alethea</a> <span class='comment-created'>Posted on Friday, September 10, 2021 at 9:22 pm</span>
+            </div></li>
+<li>
+            <div class='user-item'>
+              <div class="picture">
+  <a href="/user/102631781" title="FELICIA WIJAYA"><div  class=" profile-picture-wrapper"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/user-default.svg" alt="Profile picture for FELICIA WIJAYA" title=""  class="imagecache imagecache-profile_tiny" /></div></div></a></div>
+<a href="/user/102631781" title="View user profile.">FELICIA WIJAYA</a> <span class='comment-created'>Posted on Friday, September 10, 2021 at 5:27 pm</span>
+            </div></li>
+<li class="last">
+            <div class='user-item'>
+              <div class="picture">
+  <a href="/user/102631782" title="GABRIELLE AURELLIA YOHANES"><div  class=" profile-picture-wrapper"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/user-default.svg" alt="Profile picture for GABRIELLE AURELLIA YOHANES" title=""  class="imagecache imagecache-profile_tiny" /></div></div></a></div>
+<a href="/user/102631782" title="View user profile.">GABRIELLE AURELLIA YOHANES</a> <span class='comment-created'>Posted on Friday, September 10, 2021 at 3:20 pm</span>
+            </div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112217078">AS Level English Language: Grade 11</a> posted <span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5302331164">Expert Review</a></span>, <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5302291395">CW#16 - Collaborative Essay (Review Commentary)</a></span> and <span class="other-items-link clickable">1 other item</span>  <span class="edge-time">Sep 10 at 11:41 am</span></span></div>
+          <div class='right'><div class="other-items-list"><div class="item-list"><ul><li class="first"><div class="material-item"><span class="added-item document"><span class="inline-icon link-icon mini "><span class="visually-hidden">Web Link</span></span><a href="/course/5112217078/materials/link/view/5302331164">Expert Review</a></span> <span class="material-created">Posted on 11:41 am</span></div></li>
+<li><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5302291395">CW#16 - Collaborative Essay (Review Commentary)</a></span> <span class="material-created">Posted on 10:45 am</span></div></li>
+<li class="last"><div class="material-item"><span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5298269039">CW#15 - Reviewing Expert Commentary</a></span> <span class="material-created">Posted on 1:24 pm</span></div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112196605">G11 A Level Mathematics 2021-2022: Section 1</a> posted <span class="added-item"><span class="discussion-icon mini inline-icon"><span class="visually-hidden">Discussion</span></span><a href="/course/5112196605/materials/discussion/view/5302321603">Equation of a line - y=mc+c</a></span>  <span class="edge-time">Sep 10 at 11:27 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-course-materials-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="course-materials-added notify-icon"><span class="visually-hidden">Course Materials Notification.</span></span><span class='edge-sentence'><a href="/course/5112220745">Global Perspectives and Research: Grade 11</a> posted <span class="added-item"><span class="mini inline-icon grade-item-icon"><span class="visually-hidden">Assignment</span></span><a href="/assignment/5302127433">CW#9 - Black Mirror Reflection</a></span>  <span class="edge-time">Sep 10 at 9:46 am</span></span></div>
+          <div class='right'></div>
+        </div>
+</div></li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5173061985">Project - Fallacies Mini Presentation</a>, <a href="/assignment/5290668744">CW#14 - Expert Reviews</a> and <span class='other-items-link clickable' poptitle='Grades' id='other-items-link-23012167464'>1 other assignment</span> <span class="edge-time">Sep 10 at 7:48 am</span></span></div>
+          <div class='right'><div class='other-items-list' id='other-items-list-23012167464'><div class="item-list"><ul><li class="first">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112220745"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_tiny/courselogos/logo-5112220745_60e7bc7f37dbf.png?1625799807" alt="Profile picture for Global Perspectives and Research: Global Perspectives and Research: Grade 11" title=""  class="imagecache imagecache-profile_tiny" /></div></a>
+          </div>
+          <a href="/assignment/5173061985"><span class='grade-item'></span>Project - Fallacies Mini Presentation</a> <span class='grade-added'>Posted on 7:48 am</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112220745"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_tiny/courselogos/logo-5112217078_60e3e04733bbb.jpg?1625546823" alt="Profile picture for AS Level English Language: AS Level English Language: Grade 11" title=""  class="imagecache imagecache-profile_tiny" /></div></a>
+          </div>
+          <a href="/assignment/5290668744"><span class='grade-item'></span>CW#14 - Expert Reviews</a> <span class='grade-added'>Posted on 9:41 pm</span>
+        </div></li>
+<li class="last">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112217078"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Physical Education: Physical Education: G11 (SY 2021-2022)" /></div></a>
+          </div>
+          <a href="/assignment/5272283524"><span class='grade-item'></span>Classwork # Daily Exercises</a> <span class='grade-added'>Posted on 6:48 pm</span>
+        </div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-date-header">Thursday, September 9, 2021</li>
+<li><div class='s-edge-type-grade-add'>
+
+        <div class='notif-wrapper clearfix '>
+          <div class='left'><span class="grade-post notify-icon"><span class="visually-hidden">Graded Item Notification.</span></span><span class='edge-sentence'>A new grade was posted for <a href="/assignment/5277259424">Term 1 Class Test</a>, <a href="/assignment/5258174172">Revision Worksheet (GRADED)</a> and <span class='other-items-link clickable' poptitle='Grades' id='other-items-link-22984947230'>7 other assignments</span> <span class="edge-time">Sep 9 at 11:52 am</span></span></div>
+          <div class='right'><div class='other-items-list' id='other-items-list-22984947230'><div class="item-list"><ul><li class="first">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112196605"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_tiny/courselogos/logo-5112196605_60e2bfe6eecae.png?1625472999" alt="Profile picture for G11 A Level Mathematics 2021-2022: G11 A Level Mathematics 2021-2022: Section 1" title=""  class="imagecache imagecache-profile_tiny" /></div></a>
+          </div>
+          <a href="/assignment/5277259424"><span class='grade-item'></span>Term 1 Class Test</a> <span class='grade-added'>Posted on 11:52 am</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112196605"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_tiny/courselogos/logo-5112196605_60e2bfe6eecae.png?1625472999" alt="Profile picture for G11 A Level Mathematics 2021-2022: G11 A Level Mathematics 2021-2022: Section 1" title=""  class="imagecache imagecache-profile_tiny" /></div></a>
+          </div>
+          <a href="/assignment/5258174172"><span class='grade-item'></span>Revision Worksheet (GRADED)</a> <span class='grade-added'>Posted on 9:17 am</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112196605"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Christian Studies G11: Christian Studies G11: Section 1" /></div></a>
+          </div>
+          <a href="/assignment/5228964538"><span class='grade-item'></span>Ichthus Manna - Week 7 Sem 1</a> <span class='grade-added'>Posted on 12:37 am</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112186613"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Christian Studies G11: Christian Studies G11: Section 1" /></div></a>
+          </div>
+          <a href="/assignment/5261205760"><span class='grade-item'></span>Ichthus Manna - Week 8 Semester 1</a> <span class='grade-added'>Posted on 11:51 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112186613"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for AGAMA G 11 2021-2022: AGAMA G 11 2021-2022: G 11" /></div></a>
+          </div>
+          <a href="/assignment/5131035928"><span class='grade-item'></span>Home work</a> <span class='grade-added'>Posted on 11:00 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112772232"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for AGAMA G 11 2021-2022: AGAMA G 11 2021-2022: G 11" /></div></a>
+          </div>
+          <a href="/assignment/5266597987"><span class='grade-item'></span>Project</a> <span class='grade-added'>Posted on 11:00 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112772232"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Christian Studies G11: Christian Studies G11: Section 1" /></div></a>
+          </div>
+          <a href="/assignment/5286452148"><span class='grade-item'></span>Term 1 PROJECT</a> <span class='grade-added'>Posted on 10:10 pm</span>
+        </div></li>
+<li>
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112186613"><div class="profile-picture"><img src="https://app.schoology.com/sites/all/themes/schoology_theme/images/course-default.svg?0" alt="Profile picture for Christian Studies G11: Christian Studies G11: Section 1" /></div></a>
+          </div>
+          <a href="/assignment/5227161495"><span class='grade-item'></span>Wk7 Classwork/Homework</a> <span class='grade-added'>Posted on 7:38 pm</span>
+        </div></li>
+<li class="last">
+        <div class='user-item'>
+          <div class='picture'>
+            <a href="/course/5112186613"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_tiny/courselogos/logo-5112217078_60e3e04733bbb.jpg?1625546823" alt="Profile picture for AS Level English Language: AS Level English Language: Grade 11" title=""  class="imagecache imagecache-profile_tiny" /></div></a>
+          </div>
+          <a href="/assignments/5268466181/mydocument"><span class='grade-item'></span>CW#13 - Paper 1 | Question 2</a> <span class='grade-added'>Posted on 12:08 pm</span>
+        </div></li>
+</ul></div></div></div>
+        </div>
+</div></li>
+<li class="notif-more last"><a href="/home/notifications?&amp;page=1" class="active">More</a></li>
+</ul></div></div></div></div></div>                                        </div>
+
+          </div>
+        </div> <!-- /#center-wrapper -->
+       </div><!-- /#main-content-wrapper -->
+             </div> <!-- /#container -->
+
+            <div id="footer" class="clearfix " role="contentinfo">
+              </div>
+      
+      <span class="clear clearfix bottom-span"></span>
+    </div><!-- /#wrapper -->
+
+          <div id="site-navigation-footer" class="clearfix" role="contentinfo"></div>
+    <!-- /layout -->
+  <div id="bottom-bar">
+    <div id="bottom-bar-inner">
+          </div>
+  </div>
+  <script>window.siteNavigationUiProps={"locales":{"en":{"site-navigation.change_language":"Change Language","site-navigation.your_profile":"Your Profile","site-navigation.settings":"Settings","site-navigation.subscriptions":"Subscriptions","site-navigation.logout":"Logout","site-navigation.resources":"Resources","site-navigation.privacy_policy":"Privacy Policy","site-navigation.terms_of_use":"Terms of Use","site-navigation.home":"Home","site-navigation.my_courses":"My Courses","site-navigation.courses":"Courses","site-navigation.join_course":"Join a Course","site-navigation.create_course":"Create a Course","site-navigation.my_groups":"My Groups","site-navigation.groups":"Groups","site-navigation.join_group":"Join a Group","site-navigation.create_group":"Create a Group","site-navigation.no_groups_joined":"You have not joined any groups","site-navigation.schoology_blog":"Schoology Blog","site-navigation.navigate_to_course":"Navigate to course %{course_title}, %{section_title}.","site-navigation.navigate_to_group":"Navigate to group %{group_title}","site-navigation.course_administrator":"You are the course administrator.","site-navigation.group_administrator":"You are the group administrator.","site-navigation.linked_sections":"This is a course with linked sections.","site-navigation.organization":"Organization: %{organization}.","site-navigation.unread_notifications":"%{smart_count} unread notification |||| %{smart_count} unread notifications","site-navigation.too_many_enrollments_error_message":"This area is unavailable when you are enrolled in more than %{max} courses\/groups","site-navigation.no_notifications":"You currently do not have any notifications.","site-navigation.no_requests":"You currently do not have any requests.","site-navigation.notifications":"Notifications","site-navigation.requests":"Requests","site-navigation.unread_messages":"%{smart_count} unread message |||| %{smart_count} unread messages","site-navigation.grade_report":"Grade Report","site-navigation.attendance":"Attendance","site-navigation.tools":"Tools","site-navigation.advisor_dashboard":"Advisor Dashboard","site-navigation.user_management":"User Management","site-navigation.school_management":"School Management","site-navigation.assessment_reports":"Assessment Reports","site-navigation.assessment_teams":"Assessment Teams","site-navigation.view_more_results":"View More Results","site-navigation.app_center":"App Center","site-navigation.show_apps":"Show Apps","site-navigation.no_apps_installed":"You currently do not have any apps installed.","site-navigation.view_all":"View All","site-navigation.messages":"Messages","site-navigation.new_message":"New Message","site-navigation.unread_message":"Unread Message","site-navigation.no_messages":"You currently do not have any messages.","site-navigation.name_and_others":"%{name} and others","site-navigation.you_sent":"You sent: %{message}","site-navigation.invited_to_join_group":"You have been invited to join group %{group}","site-navigation.wants_to_join":"%{user} wants to join %{courseOrGroup}","site-navigation.invited_to_join_course":"You have been invited to join course %{course}","site-navigation.invited_to_event":"%{user} invited you to event %{event}","site-navigation.would_like_to_connect":"%{user} would like to connect","site-navigation.add_child":"Add Child","site-navigation.something_went_wrong":"Something Went Wrong","site-navigation.reload_the_page_or_try_again":"Reload the page or try again later.","site-navigation.reload_page":"Reload Page","site-navigation.basic_user_thanks":"Thank you for using Schoology Basic.","site-navigation.basic_user_upgrade":"Click below to learn about premium features and how Schoology Enterprise can help transform education for your entire institution.","site-navigation.upgrade":"Upgrade","site-navigation.find_out_more":"Find Out More","site-navigation.admin_sgy_manager":"SGY Manager","site-navigation.admin_demo_schools":"Demo Schools","site-navigation.admin_server_info":"Server Info","site-navigation.admin_sgy_lookup":"SGY Lookup","site-navigation.admin_clear_cache":"Clear Cache","site-navigation.enter_user_id":"Enter user id","site-navigation.switch_back":"Switch Back","site-navigation.morph_to_user":"Morph to User","site-navigation.masquerade":"Masquerade","site_navigation.masquerading_as_status":"You are currently masquerading as %{userName}","site-navigation.amp":"AMP","core.admin":"Administrator","core.note":"Note:","core.of":"of","core.to":"to","core.ok":"Ok","core.actions":"Actions","core.add":"Add","core.and":"and","core.added":"Added","core.add_to":"Add to","core.added_to":"Added to","core.confirm":"Confirm","core.continue":"Continue","core.edit":"Edit","core.delete":"Delete","core.deleting":"Deleting","core.print":"Print","core.remove":"Remove","core.delete_content":"Delete Content","core.create":"Create","core.download":"Download","core.copy":"Copy","core.copied":"Copied","core.save":"Save","core.done":"done","core.saving":"Saving...","core.saving_without_ellipsis":"Saving","core.last_saved":"Last saved","core.saved":"Saved","core.go_back":"Go back","core.back":"Back","core.back_to_home":"Back to Home","core.try_again":"Try Again","core.connection_error_title":"Connection Error","core.err_generic":"An error occurred","core.err_unable_to_save":"An error occurred while saving","core.err_unable_to_save_reorder":"Reordering failed to save due to a system error. Please refresh the page and try reordering your content again.","core.err_unable_to_save_try_again":"An error occurred while saving - please try again","core.generic_error.something_went_wrong":"Something Went Wrong!","core.generic_error.try_again_and_contact":"Please try again. If it still doesn't work, contact","core.generic_error.try_again_and_visit_help_center":"Please try again. If it still not working, visit the <link>Help Center<\/link> for support.","core.generic_error.try_again_and_visit_help_center_link":"Please try again. If it's still not working, visit the <a href='https:\/\/support.schoology.com\/hc' target='_blank'>Help Center<\/a> for support.","core.send":"Send","core.apply":"Apply","core.cancel":"Cancel","core.replace":"Replace","core.close":"Close","core.grade_level":"Level","core.save_changes":"Save changes","core.undo_last_change":"Undo last change","core.nothing_to_undo":"There are no changes that can be undone. Undo will be active once you make changes.","core.browse":"Browse","core.browse_or_search":"Browse\/Search","core.manage":"Manage","core.count_selected":"%{count} selected","core.selected_count":"selected (%{count})","core.selected_with_num":"Selected (%{num})","core.associated_with_num":"Associated (%{num})","core.version":"version","core.move":"Move","core.html5_media_error":"Your browser does not support HTML5 media tags","core.today_at":"Today at","core.yesterday_at":"Yesterday at","core.date_at_time":"%{month}, at %{time}","core.publish_to_nobody":"No One","core.publish_to_user":"your Connections","core.publish_to_schoology":"all Schoology Users","core.publish_to_everyone":"Everyone","core.publish_in_all_linked_sections":"Publish for All Sections","core.unpublish_in_all_linked_sections":"Unpublish for All Sections","core.loading_msg":"Loading...","core.title":"Title","core.title_a_z":"Title, A-Z","core.title_z_a":"Title, Z-A","core.description":"Description","core.untitled":"Untitled","core.unnamed_page":"Unnamed Page","core.edit_page":"Edit Page","core.preview_page":"Preview Page","core.file":"File","core.video_file":"Video File","core.video_recording":"Video Recording","core.audio_file":"Audio File","core.audio_recording":"Audio Recording","core.image_file":"Image File","core.document_file":"Document File","core.view_file":"View File","core.link_url":"Link\/URL","core.assignment":"Assignment","core.assignments":"Assignments","core.view_assignment":"View Assignment","core.assignment_submission":"Assignment Submission","core.no_assignments_with_submissions_in_course":"There are no assignments with submissions in this course","core.no_course_enrollment_msg":"You are not currently enrolled in any courses","core.upload":"Upload","core.num_items":"%{smart_count} Item |||| %{smart_count} Items","core.num_selected":"%{num} Selected","core.num_questions":"%{smart_count} question |||| %{smart_count} questions","core.assessment":"Test\/Quiz","core.tests_quizzes":"Tests\/Quizzes","core.view_assessment":"View Test\/Quiz","core.add_a_link":"Add a link","core.add_link":"Add link","core.unable_to_add_link":"Unable to add link","core.attachments":"Attachments","core.image":"Image","core.upload_image":"Upload image","core.update":"Update","core.color":"Color","core.preview":"Preview","core.no_cover_image":"No cover image","core.red":"Red","core.orange":"Orange","core.yellow":"Yellow","core.green":"Green","core.blue":"Blue","core.grey":"Grey","core.doc_convert_header":"Document conversion in progress for file:","core.doc_convert_line1":"We are converting your file which may take several minutes.","core.doc_convert_line2":"Once successfully converted your file will be displayed here.","core.doc_convert_fail_header":"Document conversion has failed.","core.doc_convert_fail_line1":"Please check your file and try again.","core.doc_convert_fail_line2":"If you're still experiencing issues please contact customer support for further assistance.","core.contact_support":"Contact Customer Support","core.export_to_pdf":"Export to PDF","core.export_to_zip":"Export to ZIP","core.edit_cover_image":"Edit Cover Image","core.thumb_max_msg":"Max 5MB","core.upload_file_fail_msg":"Unable to upload file","core.retry":"Retry","core.retry_save":"Retry save","core.retry_upload":"Retry upload","core.click_to_retry":"Click to retry","core.revert":"Revert","core.select_new_file":"Select New File","core.upload_file_too_large":"The file is too large to upload","core.send_feedback":"Send Feedback","core.sign_in_to_send_feedback":"Sign In To Send Feedback","core.switch_to_html":"Switch to HTML","core.switch_to_visual":"Switch to Visual","core.image_media":"Image\/Media","core.link":"Link","core.view_link":"View Link","core.symbol":"Symbol","core.symbols":"Symbols","core.equation":"Equation","core.latex":"LaTeX","core.tooltip":"Tooltip","core.strikethrough":"Strikethrough","core.superscript":"Superscript","core.subscript":"Subscript","core.clear_formatting":"Clear Formatting","core.insert_content":"Insert Content","core.formatting":"Formatting","core.subject":"Subject","core.message":"Message","core.page":"Page","core.view_page":"View Page","core.revision":"Revision","core.err_try_add_again":"Error, please try clicking 'Add' again","core.try_it_out":"Try it out!","core.ok_got_it":"Okay, got it!","core.my_courses":"My courses","core.archived_courses":"Archived Courses","core.recent_submissions":"Recent submission","core.add_submission":"Add submission","core.add_a_submission":"Add a submission","core.unable_to_add_submission":"Unable to add submission","core.flash_missing_msg":"To view this page ensure that Adobe Flash Player version 10.0.0 or greater is installed.","core.congratulations":"Congratulations!","core.search_in_this_filter":"Search in this filter","core.clear_search":"Clear Search","core.student":"Student","core.profile_image":"Profile Image","core.students":"Students","core.grading_groups":"Grading Groups","core.school":"School","core.schools":"Schools","core.course_name":"Course Name","core.course_code":"Course Code","core.subject_area":"Subject Area","core.level":"Level","core.section":"Section","core.sections":"Sections","core.section_name":"Section Name","core.section_code":"Section Code","core.grading_period":"Grading Period","core.instructor":"Instructor","core.instructors":"Instructors","core.instructor_last_name":"Instructor Last Name","core.instructor_first_name":"Instructor First Name","core.num_others":"%{smart_count} other |||| %{smart_count} others","core.num_schools":"%{smart_count} School |||| %{smart_count} Schools","core.all_schools":"All Schools","core.num_sections":"%{smart_count} Section |||| %{smart_count} Sections","core.all_sections":"All Sections","core.num_instructors":"%{smart_count} Instructor |||| %{smart_count} Instructors","core.all_instructors":"All Instructors","core.previous":"Previous","core.prev":"Prev","core.first":"First","core.next":"Next","core.last":"Last","core.loading":"Loading","core.displaying_page_result":"Displaying %{start} - %{end} of %{total} results","core.members":"Members","core.add_members":"Add Members","core.edit_members":"Edit Members","core.link_existing_section":"Link Existing Section","core.unlink_existing_section":"Unlink Existing Section","core.copy_section":"Copy Section","core.duplicate":"Duplicate","core.question_bank":"Question Bank","core.question_banks":"Question Banks","core.question_banks_with_num":"Question Bank (%{smart_count}) |||| Question Banks (%{smart_count})","core.content":"Content","core.page_break":"Page Break","core.text":"Text","core.see_more":"see more","core.see_less":"see less","core.total":"Total","core.totals":"Totals","core.show_more":"show more","core.show_less":"show less","core.points":"points","core.criteria":"criteria","core.total_points":"Total Points","core.question":"Question","core.click_to_type_question":"Click to type your question","core.yes":"Yes","core.no":"No","core.yes_with_correct_answers":"Yes with correct answers","core.unlimited":"Unlimited","core.times":"%{smart_count} time |||| %{smart_count} times","core.hide_point_values":"Hide","core.show_point_values":"Display","core.minutes":"minute |||| minutes","core.mins":"%{smart_count} min |||| %{smart_count} mins","core.with_answers":"with correct answers","core.highest_score":"Highest Score","core.average_score":"Average Score","core.last_score":"Last Score","core.none":"none","core.spanish":"Spanish","core.no_search_results_found":"No search results found","core.months_long":"January,February,March,April,May,June,July,August,September,October,November,December","core.days_long":"Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday","core.questions_label":"questions","core.questions":"%{smart_count} question |||| %{smart_count} questions","core.point":"%{smart_count} point |||| %{smart_count} points","core.short_answer":"Short answer","core.essay_question":"Essay question","core.printing":"Printing","core.excused":"Excused","core.incomplete":"Incomplete","core.missing":"Missing","core.mark_exception":"Mark With an Exception","core.clear_exception":"Clear Exception","core.exception":"Exception","core.in_progress":"In Progress","core.view":"View","core.settings":"Settings","core.setup":"Setup","core.status":"Status","core.status_draft":"Draft","core.status_active":"Active","core.status_retired":"Retired","core.other":"Other","core.last_modified":"Last modified","core.created_by":"Created by","core.date":"Date","core.date_range":"Date Range","core.select_date":"Select Date","core.start_date":"Start Date","core.end_date":"End Date","core.start_date_invalid_date_range":"Start time must occur before the end time","core.end_date_invalid_date_range":"End time must occur after the start time","core.invalid":"Invalid","core.invalidated":"Invalidated","core.course_search.display_current_sections_only":"Display Current Sections Only","core.course_search.search_sections":"Search Sections","core.course_search.show_all_search_options":"Show all search options","core.course_search.show_fewer_search_options":"Show fewer search options","core.course_search.advanced_search":"Advanced Search","core.course_search.sections_in_active":"Sections in Active Grading Periods","core.course_search.curr_section_only_hint":"You must deselect \"Sections in Active Grading Periods\" to select a grading period.","core.course_search.select_school":"Select school","core.course_search.select_subject":"Select a subject area","core.course_search.select_grade_level":"Select a grade level","core.course_search.select_grading_period":"Select a grading period","core.course_search.enter_course_name":"Enter course name","core.course_search.enter_section_name":"Enter section name","core.course_search.enter_course_code":"Enter course code","core.course_search.enter_section_code":"Enter section code","core.course_search.enter_first_name":"Enter instructor first name","core.course_search.enter_last_name":"Enter instructor last name","core.az":"AZ","core.za":"ZA","core.a_to_z":"A to Z","core.z_to_a":"Z to A","core.first_name_a_z":"First Name, A-Z","core.first_name_z_a":"First Name, Z-A","core.last_name_a_z":"Last Name, A-Z","core.last_name_z_a":"Last Name, Z-A","core.least_recent":"Least Recent","core.most_recent":"Most Recent","core.sorting_options":"Sorting Options","core.sorted_by":"Sorted by","core.instructions":"Instructions","core.action":"Action","core.ascending":"Ascending","core.descending":"Descending","core.low_to_high":"Low to High","core.high_to_low":"High to Low","core.correction":"Correction","core.collapse":"Collapse","core.label":"Label","unauthorized.error.insufficient.permissions":"You do not have permission to see results for the current selection","core.no_result_match_search_terms":"No results matched your search terms","core.accept":"Accept","core.dismiss":"Dismiss","core.open":"Open","core.results":"Results","core.sortable.enter_sort_mode":"Entering sort mode","core.sortable.exit_sort_mode":"Exiting sort mode","core.sortable.moved_item":"Moved item from position %{old_position} to %{new_position}","core.view_rubric":"View Rubric","core.recalculating":"Recalculating","core.unsubmit":"Unsubmit","core.submitted":"Submitted","core.late":"Late","core.on_time":"On Time","core.graded":"Graded","core.needs_grading":"Needs Grading","core.grade":"Grade","core.comments":"Comments","core.rating":"Rating","core.shared":"Shared","core.rubric":"Rubric","core.exceptions":"Exceptions","core.no_cancel":"No, cancel","core.true":"True","core.false":"False","core.items":"Items","core.done_capitalized":"Done","core.yes_submit":"Yes, submit","core.nevermind_not_yet":"Nevermind, not yet","core.complete":"Complete","core.display":"Display","core.activity_not_available":"This Activity is Not Available","core.import.auto":"Auto","core.import.manual":"Manual","core.import.type_csv":"Csv","core.import.accepted":"Accepted","core.import.in_progress":"In progress","core.import.completed":"Completed","core.import.failed":"Failed","core.grades":"Grades","core.mastery":"Mastery","core.calendar":"Calendar","core.calendar.delete_event":"Delete Event","core.calendar.delete_this_event":"Delete this event","core.calendar.delete_all_events":"Delete all events","core.calendar.delete_this_and_future_events":"Delete this and future events","core.calendar.delete_series":"Delete Series","core.calendar.delete_this_event_confirmation":"Are you sure you want to delete this event?","core.calendar.delete_all_confirmation":"Are you sure you want to delete all events in this series?","core.calendar.delete_this_and_future_confirmation":"Are you sure you want to delete this event and future events in this series?","core.calendar.this_event":"Just this event","core.calendar.this_and_future_events":"This event and future events","core.calendar.all_events_in_the_series":"All events in the series","core.calendar.save_changes":"Save Changes","core.calendar.error_repeat_until_limit":"Events cannot repeat for more than %{repeat_until_limit} days. Please adjust your start or until date to continue.","core.calendar.events_queued_create":"Events in the series will process through the event queue and appear on the calendar as they get created.","core.calendar.events_queued_edit":"Events in the series will process through the event queue and update on the calendar later.","core.calendar.changes_saved":"Your changes have been saved.","core.calendar.changes_visible_soon":"Your changes will be visible soon.","core.more":"More","core.home":"Home","core.and_more":"and %{smart_count} more","core.view_more":"View More","core.view_less":"View Less","core.hide_selected":"Hide Selected","core.select_all":"Select All","core.deselect_all":"Deselect All","core.clear_all":"Clear All","core.no_results_were_found":"Sorry, no results found","core.stepper.active":"Current","core.stepper.completed":"Completed","core.stepper.future":"Future Step","core.stepper.incomplete":"Incomplete","core.something_went_wrong":"Something Went Wrong","core.reload_the_page_or_try_again":"Reload the page or try again later.","core.or":"or","core.assessment_material":"Assessment","core.assessment_materials":"Assessments","core.external_tool":"External Tool","core.discussion":"Discussion","core.discussions":"Discussions","core.media_album":"Media Album","core.scorm":"SCORM","core.web_package":"Web Package","core.usage_analytics":"Usage Analytics","core.show_me":"Show me:","core.average":"Average","core.no_data_for_category":"No data found for this category","core.filters":"Filters","core.clear":"Clear","core.more_filters":"More Filters","core.material_type":"Material Type","core.submissions":"Submissions","core.views":"Views","core.managed_assessment":"Managed Assessment","core.oh_no":"Oh no!","core.lti.disabled.header":"System Error","core.lti.disabled.message":"Submissions are temporarily down. Sorry for the inconvenience.","core.resources":"Resources","core.personal":"Personal","core.group":"Group","core.error":"Error","core.secs":"%{smart_count} sec |||| %{smart_count} secs","core.repeat":"Repeat","core.until":"Until","core.never":"Never","core.every_day":"Every day","core.every_weekday":"Every weekday","core.every_day_of_week":"Every %{day}","core.day_of_month":"Day %{date} of every Month","core.nth_day_of_week_of_every_month":"%{ordinal} %{day} of every Month","core.last_day_of_month":"Last day of every Month","core.week_of_month_ordinals":"Every,First,Second,Third,Fourth,Fifth","core.string":"string","core.users":"Users","core.user_profile_left_nav_menu":"User Profile Left Navigation Menu","core.district":"District","core.custom_url":"Custom URL","core.must_enter_valid_custom_url":"You must enter a valid Custom URL, e.g. https:\/\/myapp.provider.com","core.custom_saml_url":"Custom SAML URL","core.must_enter_valid_custom_saml_url":"You must enter a valid Custom SAML URL, e.g. https:\/\/myapp.provider.com\/login","core.please_note":"Please Note:","core.configuring_app_is_not_same_as_installing":"Configuring the App is not the same as installing it. School Admins have the option to configure the app, giving their instructors the option to install it individually. To do this, do not check any boxes designating which course or school you want the app installed in after you've clicked the Install App button located in Schoology's App Center.","core.save_settings":"Save settings","core.successfully_configured":"You've successfully configured %{app_title}","core.rte_embed_error":"The content selected cannot be embedded","core.custom_domain.invalid_domain_error":"The domain you have entered does not appear to be a valid domain.","core.custom_domain.domain_already_verified_error":"This domain %{domain} has already been verified.","core.must_enter_valid_url":"You must enter a valid URL, e.g. https:\/\/myapp.provider.com","core.must_enter_valid_saml_url":"You must enter a valid SAML URL, e.g. https:\/\/myapp.provider.com\/login","core.must_specify_numeric_price":"You must specify a numeric price if payment is required","core.please_choose_at_least_one_category":"Please choose at least one category","core.please_load_config_xml":"Please load configuration xml","core.must_enter_valid_domain_url":"You must enter a valid Domain\/URL, e.g. https:\/\/myapp.provider.com","core.oidc_login_init_url":"OIDC Login Init URL","core.oidc_login_init_url_tooltip":"This is Tool's URL for initiating OpenId Connect third-party login flow","core.must_enter_an_oidc_login_init_url":"You must enter an OIDC Login URL, e.g. https:\/\/myapp.provider.com\/login_initiate","core.must_enter_valid_oidc_login_init_url":"You must enter a valid OIDC Login URL, e.g. https:\/\/myapp.provider.com\/login_initiate","core.redirect_urls":"Redirect URLs","core.redirect_urls_tooltip":"One or more Redirect URLs are required; separate multiple values with commas","core.must_enter_redirect_urls":"You must enter Redirect URLs","core.must_enter_valid_redirect_urls":"You must enter valid Redirect URLs, e.g. (comma separated) https:\/\/myapp.provider1.com, https:\/\/myapp.provider2.com","core.must_enter_acs_endpoint_url_to_use_saml":"You must enter an ACS endpoint URL in order to use SAML SSO with your app","core._must_agree_to_terms_of_service":"You must agree to the terms of service","core.must_enter_only_public_key_or_jwks":"You must only enter a value for Tool Public Key or JWKS URL","core.tool_public_key":"Tool Public Key","core.tool_public_key_tooltip":"This is the Tool's Public Key used for verifying signature of Tool-Originating Messages","core.jwks_url":"JWKS URL","core.jwks_url_tooltip":"This is the Tool's URL where a JSON Web Key Set can be accessed for verifying signature of Tool-Originating Messages","core.must_enter_a_valid_jwks_url":"You must enter a valid JWKS URL, e.g. https:\/\/myapp.jwks.com","core.names_and_roles_services":"Names and Roles Services","core.custom_parameters_instructions":"Custom Parameters: One key value pair per line (e.g. key=value)","core.search_returns_apps_any_criteria":"Search returns apps that meet any of the criteria provided","core.search_app_name":"Search by App Name","core.search_app_nid":"Search by App Nid","core.search_app_url":"Search by App Url","core.submit":"Submit","core.navigate_to_web_browser_for_attendance":"Please navigate to your web browser to record attendance.","core.access_denied":"Access Denied","core.configuration_url_xml":"Configuration URL\/XML","core.form_can_parse_launch_url":"This form will parse 'launch_url', 'custom.property', and 'extensions' elements from XML.","core.unable_to_launch_attendance_app":"We are unable to launch the Attendance App.","core.item_type_not_supported_in_context":"%{item_type} is currently not supported in context %{context}","core.media_type_not_supported_in_context":"%{item_type} with media type ${media_type} is currently not supported in context %{context}","core.my_activities":"My Activities","core.menu":"Menu","core.username":"Username","core.username_validation_error":"Usernames may only contain letters, numbers, periods, dashes, underscores, and tildes.","core.unique_id":"Unique ID","core.email":"email","core.search":"Search","core.open_submissions":"Open Submissions","core.exit":"Exit","core.you_are_viewing_as":"You are viewing as %{name}","core.point_scale_validation_error":"You must enter a numeric point value for each level."}},"csrf":{"key":"Yuk5VAX4ke1U2-Kmrw7ItPjc5Jx0jpfq7nhdq7cHEyo","token":"c80bb748f11ce620f468a2ef6a85e646"},"props":{"notifications":{"maxAllowedEnrollments":150,"unreadCount":0},"unreadRequestsCount":0,"courses":{"showCreateCourse":false,"showJoinCourse":true},"groups":{"showCreateGroup":false,"showJoinGroup":true},"messages":{"canSend":true,"canReceive":true,"unreadCount":0},"tools":{"showUserManagement":false,"showSchoolManagement":false,"showImportExport":false,"showAdvisorDashboard":false,"showSchoolAnalytics":false,"schoologyAdminTools":{"showSgyManager":false,"showDemoSchools":false,"showServerInfo":false,"showSgyLookup":false,"showEmptyCache":false}},"amp":{"showAssessmentTeams":false,"showAssessmentReports":false},"apps":{"showAppCenterLink":false,"userApps":[{"nid":"1027552322","appTitle":"Discovery Education","logoImgSrc":"https:\/\/asset-cdn.schoology.com\/system\/files\/imagecache\/profile_tiny\/applogos\/logo-_59b7311b75199.png?1505177883"},{"nid":"731907857","appTitle":"Nearpod","logoImgSrc":"https:\/\/asset-cdn.schoology.com\/system\/files\/imagecache\/profile_tiny\/applogos\/logo-731907857_57bdc2421accc.png?1472053826"}]},"masquerade":[],"grades":{"showGradeReport":true,"showMastery":true,"showAttendance":true},"user":{"language":"en","languageNameNative":"English","logoutToken":"c4ddadf654baab4110ce978902eb5323","userSessionId":"927e27a5f9be1d518291f0aefe799eb3decab11f98bd6fb03666bd1ad8376dc1","uid":102631893,"name":"NICHOLAS FRANSHEL","profilePictureUrl":"https:\/\/asset-cdn.schoology.com\/sites\/all\/themes\/schoology_theme\/images\/user-default.svg","parentUid":102631893,"parentName":"NICHOLAS FRANSHEL","parentProfilePictureUrl":"https:\/\/asset-cdn.schoology.com\/sites\/all\/themes\/schoology_theme\/images\/user-default.svg","blogSubscriptionStatus":false,"buildings":[{"nid":3067463909,"name":"Ichthus West School"}],"linkedAccounts":[],"childrenAccounts":[],"isBasicInstructor":false,"isBasicNonFacultyUser":false},"languageOptions":{"en":"English","en-GB":"English (UK)","fr-corp":"French - Corporate","ja":"Japanese","ms":"Malay","pt":"Portuguese","es":"Spanish"},"supportLink":{"title":"Support"},"branding":{"color1":"#F5F5DC","color2":"#F5F5FC","color3":"#9c3d97","color4":"#9c3d97","color5":"#FFFFFF","color6":"#0677BA","color7":"#E1DFE1","color8":"#333333","logo":"https:\/\/asset-cdn.schoology.com\/system\/files\/imagecache\/node_themes\/sites\/all\/themes\/schoology_theme\/node_themes\/3067463909\/Landscape%20Logo-01_5f87c42ac0a4d.png"},"sentry":{"environment":"production","configUrl":"https:\/\/7100267298a447628f7bf7cff5c7e50a@sentry.io\/1222488","sampleRate":0.1000000000000000055511151231257827021181583404541015625},"breadcrumbs":null,"motuId":null,"apiV2":{"rootUrl":"https:\/\/app.schoology.com\/v2\/root"},"isDetailLayout":false}}</script><script src="https://ui.schoology.com/platform/site-navigation-ui/bundle.0.156.2.js"></script><script type="text/javascript" src="https://asset-cdn.schoology.com/assets/bundles/js/common/common-a86b24e0ebe4954a9660.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_extlink_ce01093c8b7cbbac317b3c83912b1dd8.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/popups-skin_c4e818d805fcb9b4673e9ae6392a0e77.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_edge_more_4fe95d5173c4389e6f44d71d1c421b2e.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_edge_filter_ce26f096dad738fb1b87b0e587311597.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_user_e4c8237caadf8b2c6c0db85f72b6d61b.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_attachment_e91163041a14b2b7008a37c70b09320b.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_grading_scale_select_2e8262fc057a2bf3baaf7f61e1685c30.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_common_date_helper_f2faebaa5a7a38c07b3a00fd93f7e46f.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_grade_item_add_form_3ad2f14c37996510b07ebac4aceb38d1.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_grades_grading_category_3937bbd6c1d4516d3e4604cfe46eefe0.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/jquery_37e34865658194ce733fcbd3af93edab.a_form.packed.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/ajax_fbfcb96e5a6cda833a9d7fde9ebd10b9.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/pendo_2706671c76c068330442ffcf0ee1cba2.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/theme_7d229e9a1db63494773f6d6ad04653b6.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_grades_add_edge_86698e60a3a30ae63e9ce1805d194e49.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_course_materials_edge_393f0c2fba554d1752ea6450a98082f2.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_comment_edge_df303752330601770a6f806499d856c3.js"></script>
+<script type="text/javascript" src="https://asset-cdn.schoology.com/assets/drupal-js-files/s_alignment_261393b577036fd248e9f1262625f726.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","s_common":{"csrf_key":"kznMFbPNqF958XItdzAWInu8Q5nj-k4VqrhRsrdX0Nc","csrf_token":"8780f6d605f6406a6d4703af4323462e","logout_token":"c4ddadf654baab4110ce978902eb5323","default_realm_profiles":{"group":"https:\/\/app.schoology.com\/sites\/all\/themes\/schoology_theme\/images\/group-default.svg","course":"https:\/\/app.schoology.com\/sites\/all\/themes\/schoology_theme\/images\/course-default.svg","school":"https:\/\/asset-cdn.schoology.com\/system\/files\/imagecache\/profile_tiny\/sites\/all\/themes\/schoology_theme\/images\/school-default.gif"},"date_format_language":"","language":"","timezone":"25200","default_domain":"app.schoology.com","user":{"uid":"102631893","school_nid":"3067463909"}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"^https?:\/\/[^\/]+\\.schoology\\.com\/i","extInclude":"","extAlert":"_blank","extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"popups":{"links":{".s-js-locked-resource-link-diff":{"extraClass":"popups-extra-large linked-content-diff-view"}},"originalPath":"home\/notifications?from_popup=","defaultTargetSelector":"div#content-wrapper","modulePath":"sites\/all\/modules\/popups","autoCloseFinalMessage":1},"s_user_ui_settings":[],"s_edge":{"feed_url":"home\/notifications","update_max_comments_show":3,"update_max_comments_ajax":10},"s_accessibility":{"role_main":"main"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window._initPendo({"id":"6012c35ce211898d92a50e95b0b5087b","gender":"","accountCreationDate":"2020-10-21 22:03:59","isFaculty":false,"isParent":false,"isSchoolAdmin":false,"isTeacher":false,"isAdvisor":false,"isStudent":true,"customRole":"student","numCoursesEnrolled":48,"numCoursesTaught":0,"numSchoolGroupsAsMember":0,"numSchoolGroupsAsOwner":0,"numPublicGroupsAsMember":0}, {"country":"ID","state":"","zip":"10120","schoolType":"k-12","customizedUI":true,"featurePackage":"enterprise","sgyId":368635,"organizationNid":"3067463909","buildingNid":"3067463909","id":"368635"},"9d267eb0-c5a6-41fb-786d-8ec2c4e691cc")
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"aggregated_js":["\/assets\/bundles\/js\/common\/common-a86b24e0ebe4954a9660.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_extlink_ce01093c8b7cbbac317b3c83912b1dd8.js?6169f0824b932b71","\/assets\/drupal-js-files\/popups-skin_c4e818d805fcb9b4673e9ae6392a0e77.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_edge_more_4fe95d5173c4389e6f44d71d1c421b2e.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_edge_filter_ce26f096dad738fb1b87b0e587311597.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_user_e4c8237caadf8b2c6c0db85f72b6d61b.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_attachment_e91163041a14b2b7008a37c70b09320b.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_grading_scale_select_2e8262fc057a2bf3baaf7f61e1685c30.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_common_date_helper_f2faebaa5a7a38c07b3a00fd93f7e46f.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_grade_item_add_form_3ad2f14c37996510b07ebac4aceb38d1.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_grades_grading_category_3937bbd6c1d4516d3e4604cfe46eefe0.js?6169f0824b932b71","\/assets\/drupal-js-files\/jquery_37e34865658194ce733fcbd3af93edab.a_form.packed.js?6169f0824b932b71","\/assets\/drupal-js-files\/ajax_fbfcb96e5a6cda833a9d7fde9ebd10b9.js?6169f0824b932b71","\/assets\/drupal-js-files\/pendo_2706671c76c068330442ffcf0ee1cba2.js?6169f0824b932b71","\/assets\/drupal-js-files\/theme_7d229e9a1db63494773f6d6ad04653b6.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_grades_add_edge_86698e60a3a30ae63e9ce1805d194e49.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_course_materials_edge_393f0c2fba554d1752ea6450a98082f2.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_comment_edge_df303752330601770a6f806499d856c3.js?6169f0824b932b71","\/assets\/drupal-js-files\/s_alignment_261393b577036fd248e9f1262625f726.js?6169f0824b932b71"]});
+//--><!]]>
+</script>
+<script type="text/javascript">sBrowserInfoSetCookie();</script>      <iframe style="display:none" src="https://asset-cdn.schoology.com/sites/all/modules/schoology_core/session-tracker.html?id=102631893"></iframe>
+          </div>
+  </body>
+</html>
